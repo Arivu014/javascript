@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            margin: 0px;
+
+        }
+       .main1 h1{
+            margin: 0px;
+            
+        }
+        .main1{
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(42, 93, 165);
+            position: relative;
+        }
+        .main11{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: xx-large;
+            transform: translate(-50%,-50%);
+
+        }
+         .main2{   
+            width: 100vw;
+            height: 80vh;
+            background-color:rgb(10, 20, 15);
+            position: relative;
+        }
+        .main21{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            color: white;
+            font-size: x-large;
+        }
+        .main22{
+            position: absolute;
+            left: 100px;
+            top: 400px;
+        }
+        .main22 button{
+            width: 120px;
+            height: 30px;
+            font-size: x-large;
+            border-radius: 10px;
+            border:20px;
+            border-color: white ;
+        }
+        .main22 button:hover{
+            background-color: rgb(15, 15, 20);
+            display: block;
+            filter: drop-shadow(0 0 10px white);
+            color: white;
+            border-radius: 20px;
+        }
+        .main23 img{
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            height: 450px;
+            width: 350px;
+            border-radius: 550px;
+        }
+            .main24{
+                position: absolute;
+                right: 350px;
+                color: white;
+                top: 300px;
+                display: none;
+
+                
+            }
+            .main25 img{
+                top: 63vh;
+                left: 7vw;
+                position: absolute;
+                width: 50px;
+                height: 50px;
+            }
+            .main25 img:hover{
+                 width: 55px;
+            height: 55px;
+            transform: rotate(-2deg);
+
+            }
+             .main25 .img2{
+                top: 64vh;
+                left: 16vw;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                border-radius: 30%;
+            }
+             .main25 .img3{
+                top: 64vh;
+                left: 10vw;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                border-radius: 30%;
+            }
+             .main25 .img4{
+                top: 64vh;
+                left: 13vw;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                border-radius: 30%;
+            }
+        
+         .main3{
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(42, 85, 165);
+        }
+        #image:hover{
+            width: 35px;
+            height: 35px;
+            transform: rotate(2deg);
+        }
+         @media(max-width:500px){
+            
+           .main1{
+            background-color: burlywood;
+           }
+         }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        
+       <div class="main11">
+         <h1>Arivazhagan A</h1>
+       </div>
+    </div>
+    <div class="main2">
+        <div class="main21">
+            <h1 id="h1">Hi There,</h1>
+            <h1 id="h2">This is Arivu</h1>
+            <h1 id="h3">Software Developer</h1>
+        </div>
+        <div class="main22">
+               <button id="b">About</button>
+        </div>
+        <div class="main23" id="visible">
+
+            <img src="https://t3.ftcdn.net/jpg/05/64/78/12/360_F_564781232_H9GzmyWThwmaBWkA14wfoVJ3xg4sAx3j.jpg" alt="">
+        </div>
+        <div class="main24" id="hidden">
+            <h1>This is Hidden</h1>
+            <h1>appre only view</h1>
+
+        </div>
+        <div class="main25">
+            <table>
+                <tr>
+                    <td> 
+                       <a href="https://www.instagram.com/call__me_rocky._.14/" >
+    <img  src="https://static.vecteezy.com/system/resources/previews/018/930/692/original/instagram-logo-instagram-icon-transparent-free-png.png">
+</a>
+
+                      
+                    </td>
+                          <td> 
+                       <a href="https://github.com/Arivu014" >
+    <img class="img2" id="image" src="https://static.vecteezy.com/system/resources/previews/025/270/403/original/github-logo-icon-free-vector.jpg">
+</a>
+                          </td>
+            <td> 
+                       <a href="https://www.linkedin.com/in/arivazhagan-a-670604297/" >
+    <img class="img3"  id="image"  src="https://tse3.mm.bing.net/th/id/OIP.S5xxAy0SOqjnkgjK0aEivAHaHa?pid=Api&P=0&h=180">
+</a>
+
+                      
+                    </td>
+                      <td> 
+                       <a href="https://leetcode.com/u/arivu014/" >
+    <img class="img4"  id="image"  src="data:image/png;base64,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">
+</a>
+
+                      
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class="main3"></div>
+    <script>
+        document.getElementById('b').onclick = function(){
+            document.getElementById('h1').innerHTML='Junior developer';
+             document.getElementById('h2').innerHTML='Intern novitech';
+              document.getElementById('h3').innerHTML='BTech CSBS';
+               document.getElementById('visible').style.display='none';
+                document.getElementById('hidden').style.display='block';
+        }
+    </script>
+</body>
+</html>
